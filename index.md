@@ -5,4 +5,4 @@ layout: default
 
 # Заголовок
 
-И не много текста.
+[blog.html](blog.html)
