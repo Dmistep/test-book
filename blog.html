@@ -5,6 +5,7 @@ title: Blog page
 
 
 {% for post in site.posts %}
+   <a href="{{ post.url }}"> link</a>
   <h1>{{ post.title }}</h1>
   {{ post.content }}
 {% endfor %}
