@@ -1,5 +1,10 @@
 ---
 layout: default
+title: Blog page
 ---
 
-<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique accusamus, eaque officia! Cumque repudiandae sed facilis reprehenderit possimus at, doloribus blanditiis sint, eligendi sapiente nihil vel officiis, culpa dolorum ducimus.</p>
+<ul>
+{% for post in site.posts %}
+  <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+{% endfor %}
+</ul>
