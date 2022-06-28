@@ -3,9 +3,9 @@ layout: default
 title: Blog page
 ---
 
-<ul>
+
 {% for post in site.posts %}
-  <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+  <h1>{{ post.title }}</h1>
   {{ post.content }}
 {% endfor %}
-</ul>
+
